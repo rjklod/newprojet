@@ -1,0 +1,12 @@
+ALGORITHM algorithm_name
+VAR
+    c=:CHAR:="gomycodenew";
+    i=:INTEGER:=0;
+    sum=:INTEGER:=0;
+BEGIN
+FOR i FROM 0 TO c.length-1  DO
+sum:=sum+1;
+    
+END_FOR
+write ("le nbr de character est" sum)
+END
